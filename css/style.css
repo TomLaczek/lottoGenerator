@@ -16,6 +16,9 @@ body {
     overflow: hidden;
 }
 */
+header {
+    margin: 24px auto;
+}
 h1 {
     padding-bottom: 20px;
     margin-bottom: 40px;
@@ -25,9 +28,19 @@ h1 {
     font-weight: normal;
     color: #666666;
 }
-
+h1,h2{
+    text-align: center;
+}
+#button{
+    display: inline-grid;
+}
+a.btn {
+    text-decoration: none;
+    background-color: white;
+    border:1px solid #007bff;
+}
 .btn {
-    width: 100%;
+    width: 80%;
     height: 40px;
     padding: 0 20px;
     border: none;
@@ -39,14 +52,15 @@ h1 {
 
     font: 14px/40px Tahoma, Arial, sans-serif;
     color: #426025;
+    margin: 16px auto;
 }
 
 .output {
     display: inline-block;
-    width: 100%;
+    width: 80%;
     height: 40px;
     padding: 0 20px;
-    margin-left: 20px;
+    margin: 16px auto;
     float: left;
     border-radius: 10px;
     background: #A4D5FF;
